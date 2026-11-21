@@ -9,7 +9,7 @@ RUN mvn -B -q -DskipTests dependency:go-offline || true
 COPY src ./src
 RUN mvn -B -DskipTests clean package
 
-FROM eclipse-temurin:17-jre
+FROM eclipse-temurin:24-jre
 WORKDIR /app
 
 RUN useradd -r -u 10001 appuser
