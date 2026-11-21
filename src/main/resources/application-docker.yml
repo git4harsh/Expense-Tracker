@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Harsh (git4harsh). All rights reserved.
 spring:
   datasource:
     url: ${DB_URL:jdbc:mysql://mysql:3306/expense_tracker?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}

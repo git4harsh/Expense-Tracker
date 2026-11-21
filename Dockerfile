@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Harsh (git4harsh). All rights reserved.
 # syntax=docker/dockerfile:1
 
 FROM maven:3.9.9-eclipse-temurin-17 AS build

@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 Harsh (git4harsh). All rights reserved. */
 package com.harsh.expense.transaction;
 
 import com.harsh.expense.category.CategoryRepository;

@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Harsh (git4harsh). All rights reserved. -->
 # Expense Tracker API – API Documentation
 
 Base URL (local): `http://localhost:8080`

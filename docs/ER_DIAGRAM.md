@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Harsh (git4harsh). All rights reserved. -->
 # Entity Relationship Diagram
 
 ```mermaid

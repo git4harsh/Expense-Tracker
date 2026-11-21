@@ -1,3 +1,4 @@
+# Copyright (c) 2026 Harsh (git4harsh). All rights reserved.
 global:
   scrape_interval: 15s
 

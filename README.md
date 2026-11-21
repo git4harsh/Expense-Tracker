@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Harsh (git4harsh). All rights reserved. -->
 # Expense Tracker API
 
 A production-minded Spring Boot backend for personal expense tracking with secure authentication, owner-scoped APIs, reporting, eventing, and observability.

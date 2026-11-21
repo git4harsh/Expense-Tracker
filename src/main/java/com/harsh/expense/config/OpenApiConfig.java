@@ -1,3 +1,4 @@
+/* Copyright (c) 2026 Harsh (git4harsh). All rights reserved. */
 package com.harsh.expense.config;
 
 import io.swagger.v3.oas.models.Components;

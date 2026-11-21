@@ -1,3 +1,4 @@
+<!-- Copyright (c) 2026 Harsh (git4harsh). All rights reserved. -->
 # Demo media (screenshots / GIFs)
 
 This folder is reserved for reviewer-facing demo artifacts referenced by the main README.
