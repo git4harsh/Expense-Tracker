@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://mysql:3306/expense_tracker?createDatabaseIfNotExist=true&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:root}
+  kafka:
+    bootstrap-servers: ${KAFKA_BOOTSTRAP_SERVERS:kafka:29092}
+
+app:
+  cors:
+    # Comma-separated origins for non-local environments; empty uses safe local defaults in code.
+    allowed-origins: ${APP_CORS_ALLOWED_ORIGINS:}
+
+management:
+  endpoint:
+    health:
+      # Docker/Prometheus health checks need details without browser auth; keep non-sensitive.
+      show-details: always

@@ -1,0 +1,11 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: expense-tracker-api
+    metrics_path: /actuator/prometheus
+    static_configs:
+      # Works when the API runs as the `app` service in Docker Compose.
+      # If running the API on the host instead, change target to host.docker.internal:8080.
+      - targets: ["app:8080"]
+
